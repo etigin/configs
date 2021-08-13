@@ -1,0 +1,61 @@
+{
+    // appearance
+    "editor.fontFamily": "'Cascadia Mono', 'DejaVu Sans Mono', Consolas, 'Courier New', monospace",
+    "editor.fontSize": 16,
+    "terminal.integrated.fontSize": 16,
+    "workbench.colorTheme": "Visual Studio Dark",
+    "workbench.iconTheme": "vs-seti",
+
+    // disable telemetry
+    "dotnet-test-explorer.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+    "workbench.enableExperiments": false,
+
+    // disable distractions
+    "csharp.referencesCodeLens.enabled": false,
+    "editor.minimap.enabled": false,
+    "extensions.ignoreRecommendations": true,
+    "security.workspace.trust.banner": "never",
+    "security.workspace.trust.enabled": false,
+    "security.workspace.trust.startupPrompt": "never",
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.editor.untitled.hint": "hidden",
+    "workbench.editor.untitled.labelFormat": "name",
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.tips.enabled": false,
+
+    // dotnet
+    "omnisharp.enableDecompilationSupport": true,
+    "omnisharp.enableEditorConfigSupport": true,
+    "omnisharp.enableRoslynAnalyzers": true,
+    "omnisharp.organizeImportsOnFormat": true,
+
+    // file type specific settings
+    "[markdown]": {
+        "editor.autoClosingBrackets": "never",
+        "editor.quickSuggestions": false,
+        "editor.wordWrap": "on"
+    },
+    "[plaintext]": {
+        "editor.quickSuggestions": false,
+        "editor.wordWrap": "on"
+    },
+    "files.associations": {
+        "*.ldg": "ledger"
+    },
+
+    // misc
+    "editor.accessibilitySupport": "off",
+    "editor.dragAndDrop": true,
+    "editor.renderWhitespace": "boundary",
+    "editor.rulers": [
+        120
+    ],
+    "editor.suggest.showStatusBar": true,
+    "editor.wordWrap": "off",
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "search.mode": "reuseEditor",
+    "search.searchEditor.doubleClickBehaviour": "openLocationToSide"
+}
